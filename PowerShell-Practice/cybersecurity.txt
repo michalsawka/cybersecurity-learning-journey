@@ -1,0 +1,2 @@
+I am learning cybersecurity
+PowerShell is my first tool.
