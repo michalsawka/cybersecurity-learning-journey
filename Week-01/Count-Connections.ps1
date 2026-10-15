@@ -1,11 +1,11 @@
+# Wybieramy proces i zdalny port
+# Set the target process ID and remote port
+$ProcessId = Read-Host "Enter process ID"
+$TargetPort = Read-Host "Enter remote port"
+
 # Pobieramy aktualne nawiązane połączenie TCP
 # Retrieving current established TCP connections
 $Connections = @(Get-NetTCPConnection -State Established)
-
-# Wybieramy proces i zdalny port
-# Set the target process ID and remote port
-$ProcessId = 7968
-$TargetPort = 443
 
 # Zerujemy licznik
 # Reset the main counter
